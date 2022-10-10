@@ -42,11 +42,7 @@
   .contenedortexto .botones{
     text-align: left;
   }
-  
-  .textoAbajo {
-    position: relative;
-    bottom: -35%;
-}
+
 
 /*oradores*/
 .oradores{
