@@ -1,8 +1,8 @@
 <!DOCTYPE html5>
 <html lang="es">
 <head>
- <meta charset.= "utf-8">
- <meta name="esta es una pagina para el travbajo practico de codo a codo">
+ <meta charset= "utf-8">
+ <meta name="esta es una pagina para el trabajo practico de codo a codo">
  <meta name="content= html, css, xtml, pagina, web, html5">
  <meta name=" viewport" content="width= device-width, initial-scale=1.0">
  <title>tp codo a codo</title>
@@ -20,67 +20,114 @@ crossorigin="anonymous">
 
 <body>
 <!--menu-->
-<header>
-  <nav class="row">
-    <div>
+<section>
+  <header>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <!-- Navbar content -->
+   <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="img.png/codoacodo.png" alt="codoacodo" width="80px" height="80px">
-      </a>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">la conferecia</a>
+        <img src="img.png/codoacodo.png" alt="codoacodo" height="80px" class="d-inline-block aling-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target>
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="textizq" id="navbarnav">
+          <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link text-white" href="#">La conferecia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">los oradores</a>
+                <a class="nav-link text-white" href="#">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">lugar y fecha</a>
+                <a class="nav-link text-white" href="#">Lugar y fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">conviertete en orador</a>
+                <a class="nav-link text-white" href="#">Conviertete en orador</a>
               </li>
               <li class="nav-item" id="tiket">
-                <a class="nav-link active" href="#">comprar tiket </a>
+                <a class="nav-link" href="#">Comprar tiket</a>
               </li>
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>
+    </div>
+  </nav>
 </section>
-</header>
 
 <!-- Conf Bs As -->
-<seccion class="container">
-  <div class="degradado">
-    <img src="img.png/ba1.jpg" class="card-img" alt="Buenos Aires"/>
+
+
+<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-</seccion>
-<div>
-  <h4>Conf Bs As</h4>
-  <section class="contenedortexto">
-      <p>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img.png/ba1.jpg" class="d-block w-100" alt="bsas1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="texto">CONFERENCIA BS AS</h5>
+        <p id="texto">
           Bs As llega por primera vez a Argentina. Un evento para compartir con
           nuestra comunidad el conocimiento y experiencia de los expertos que
           están creando el futuro de Internet. Ven a conocer a miembros del
           evento, a otros estudiantes de Codo a Codo y los oradores de primer
           nivel que tenemos para tí. Te esperamos!
-     </p>
+        </p>
+        <div class="texto">
+          <button type="button" class="btn btn-outline-dark text-white border-dark">Quiero ser orador</button>
+          <button type="button" class="btn btn-outline-dark text-white border-dark">Comprar tickets</button>
+          </div>  
+      </div>
     </div>
-  </section>
-  <sectio class="botones">
-    <div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img.png/ba2.jpg" class="d-block w-100" alt="bsas2">
+      <div class="carousel-caption d-none d-md-block ">
+        <h5 id="texto">CONFERENCIA BS AS</h5>
+        <p id="texto">
+          Bs As llega por primera vez a Argentina. Un evento para compartir con
+          nuestra comunidad el conocimiento y experiencia de los expertos que
+          están creando el futuro de Internet. Ven a conocer a miembros del
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          nivel que tenemos para tí. Te esperamos!
+        </p>
+        <div class="texto">
+          <button type="button" class="btn btn-outline-dark text-white border-black">Quiero ser orador</button>
+          <button type="button" class="btn btn-outline-dark text-white border-black">Comprar tickets</button>
+          </div>  
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img.png/ba3.jpg" class="d-block w-100" alt="bsas3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="texto">CONFERENCIA BS AS</h5>
+        <p id="texto">
+          Bs As llega por primera vez a Argentina. Un evento para compartir con
+          nuestra comunidad el conocimiento y experiencia de los expertos que
+          están creando el futuro de Internet. Ven a conocer a miembros del
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          nivel que tenemos para tí. Te esperamos!
+        </p>
+        <div class="texto">
+          <button type="button" class="btn btn-outline-dark text-white border-black">Quiero ser orador</button>
+          <button type="button" class="btn btn-outline-dark text-white border-black">Comprar tickets</button>
+          </div>
+      </div>
+    </div>
+  </div>
 
-      <button type="button">Quiero ser orador</button>
-      <button type="button">Comprar tickets</button>
-     
-    </div>
-  </section>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--aca termina el carrusel con texto-->        
+ 
 
 <!--oradores -->
 
@@ -257,14 +304,14 @@ crossorigin="anonymous">
     </div>
 
     <!-- Bs As - Octubre -->
-    <br />
+  <br />
     <div class="container-fluid">
       <div class="row justify-content-center text-black divDoble">
         <div class="col-6 d-inline ps-0">
           <img src="img.png/honolulu.jpg" alt="Honolulu" class="card-img-top" />
         </div>
         <div class="col-6 d-inline divDoble">
-          <br/>
+        <br/>
           <p class= "t1"
           h4>Bs As - Octubre</p>
           <p class="t2">
@@ -276,7 +323,7 @@ crossorigin="anonymous">
             condado consolidada que cubre toda la ciudad (aproximadamente 600
             km<sup>2</sup>. de superficie).
           </p>
-          <a href="#" class="btn btn-outline-dark text-white border-white">Conocé más</a>
+          <a href="#" class="btn btn-outline-dark text-white border-black">Conocé más</a>
         </div>
       </div>
     </div>
@@ -285,9 +332,9 @@ crossorigin="anonymous">
     <!-- Formulario de registro de oradores -->
     <div class="container-fluid text-center" px-5 style="width: 65%">
       <p class="text-uppercase pt-2 mb-0">
-        <small>conviértete en un</small>
+        <small>Conviértete en un</small>
       </p>
-      <p class="h1 text-uppercase">orador</p>
+      <p class="h1 text-uppercase">ORADOR</p>
       <p>
         Anótate como orador para dar una
         <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres
@@ -341,50 +388,46 @@ crossorigin="anonymous">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse text-izq" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">preguntas frecuentes</a>
+            <a class="nav-link active" href="#">Preguntas frecuentes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">contactanos</a>
+            <a class="nav-link active" href="#">Contactanos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">prensa</a>
+            <a class="nav-link active" href="#">Prensa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">enviar</a>
+            <a class="nav-link active" href="#">Enviar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">conferencia</a>
+            <a class="nav-link active" href="#">Conferencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">terminos y condiciones</a>
+            <a class="nav-link active" href="#">Terminos y condiciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">privacidad</a>
+            <a class="nav-link active" href="#">Privacidad</a>
           <li class="nav-item">
-            <a class="nav-link active" href="#">estudiantes</a>
+            <a class="nav-link active" href="#">studiantes</a>
             </li>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-
 <br>
     <p class="mg">© 2022 Dayana Toccoli, Inc.</p>
+
 </footer>
 
-
-    <script
-      src="C:\Users\Lenovo\Desktop\TP Integrdor - Codo a codo\Estilos.css"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+</script>
+   
 </html>
